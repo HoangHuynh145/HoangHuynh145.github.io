@@ -93,9 +93,9 @@
     }
 
     .header .header_search.open{
-        width: 190px;
+        width: 140px;
         height: 37px;
-        margin-left: 6px;
+        margin-left: 55px;
     }
 
     .header .header_search_btn{
@@ -165,6 +165,7 @@
     .main_content .body .body_header .cd_thumb{
         width: 150px;
         height: 150px;
+        margin-left: 34px;
     }
 
     .main_content .body .playlist .song{
@@ -191,6 +192,10 @@
         margin-left: 2px;
         font-weight: 700;
         width: 100%;
+    }
+
+    .main_content .dashboard{
+        width: 78%;
     }
 
     .main_content .body .dashboard header .author h3{
