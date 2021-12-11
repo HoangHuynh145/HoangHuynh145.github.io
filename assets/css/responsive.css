@@ -188,7 +188,7 @@
     }
 
     .main_content .body .dashboard header h3{
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 2px;
         font-weight: 700;
         width: 100%;
@@ -222,5 +222,20 @@
 
     .main_content .body .song:last-child {
         margin-bottom: 64px;
+    }
+
+    .control .progress{
+        height: 10px;
+        width: 250px;
+    }
+
+    .progress::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 14px;
+        height: 10px;
+        cursor: pointer;
+        background-color: rgb(93, 209, 174);
+        border-radius: 10px;
     }
 }
