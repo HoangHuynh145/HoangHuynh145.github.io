@@ -109,6 +109,12 @@ const app = {
             path: './assets/music/holo-mp3.mp3',
             image: './assets/img/holo.jpg'
         },
+        {
+            name: '[Giọng nữ] Lemon - Kenshi Yonezu (Cover bởi Kobasolo & Harutya)',
+            singer: 'Kobasolo & Harutya',
+            path: './assets/music/lemon-mp3.mp3',
+            image: './assets/img/Lemon.jpg'
+        },
 
     ],
 
