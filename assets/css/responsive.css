@@ -194,8 +194,13 @@
         width: 100%;
     }
 
+    .header .header_search{
+        margin-left: 55px;
+    }
+
     .main_content .dashboard{
         width: 78%;
+        margin-left: 6px;
     }
 
     .main_content .body .dashboard header .author h3{
@@ -213,5 +218,9 @@
 
     .control .control_container .interact{
         margin-top: 8px;
+    }
+
+    .main_content .body .song:last-child {
+        margin-bottom: 64px;
     }
 }
