@@ -1,0 +1,212 @@
+/* tablet  */
+@media(min-width:740px) and (max-width:1023px){
+    .header{
+        position: fixed;
+        width: 100%;
+        left: 230px;
+    }
+    
+    .header .change{
+        position: absolute;
+        right: 260px;
+    }
+
+    .header .header_search.open{
+        width: 250px;
+    }
+
+    .main_content .body .body_header{
+        height: 32vh;
+        display: unset;
+        margin-left: 190px;
+    }
+
+    .main_content .body .body_header .cd_thumb{
+        border-radius: unset;
+        width: 230px;
+        height: 230px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+
+    .main_content .body{
+        margin-left: 30px;
+    }
+
+    .main_content .body .playlist .song{
+        width: 700px;
+        margin-right: 30px;
+        height: 100px;
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .main_content .body .song:first-child{
+        margin-top: 300px;
+    }
+
+    .main_content .body .playlist .song .thumb{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .main_content .body .dashboard header .author h4,
+    .main_content .body .dashboard header .about_song h4{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .main_content .body .dashboard header .author h3,
+    .main_content .body .dashboard header .about_song h3{
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+    .main_content .body .body_header header{
+        margin: 0 auto;
+    }
+
+    .navigation{
+        height: 39vh;
+        border-radius: 10px;
+    }
+}
+
+/* mobile  */
+@media(max-width:740px){
+    .header{
+        height: 50px;
+        width: 260px;
+        padding: unset;
+        justify-content: space-around;
+    }
+
+    .header .change .icon{
+        display: none;
+    }
+
+    .header .change .user_avt{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header .header_search.open{
+        width: 190px;
+        height: 37px;
+        margin-left: 6px;
+    }
+
+    .header .header_search_btn{
+
+    }
+
+    .navigation{
+        width: 160px;
+        height: 324px;
+        border-radius: 10px;
+    }
+
+    .navigation .logo{
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+
+    .navigation .card{
+        width: 140px;
+        height: 200px;
+        margin: unset;
+    }
+
+    .navigation .card .card_img{
+        width: 80px;
+        height: 80px;
+        transform: translateY(6px);
+    }
+
+    .navigation .card h2{
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .navigation .card p{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .navigation .card .social{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .navigation .card button{
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .navigation .change_nav{
+        display: unset;
+    }
+
+    .main_content .body{
+        margin-left: 12px;
+        margin-top: 226px;
+    }
+
+    .main_content .body .body_header{
+        display: unset;
+        margin-left: 202px;
+        height: 273px;
+        width: 259px;
+        margin-top: -20px;
+    }
+
+    .main_content .body .body_header .cd_thumb{
+        width: 150px;
+        height: 150px;
+    }
+
+    .main_content .body .playlist .song{
+        width: 100%;
+    }
+
+    .main_content .body .playlist .song:first-child{
+        margin-top: unset;
+    }
+
+    .main_content .body .dashboard header .about_song{
+        display: unset;
+    }
+
+    .main_content .body .dashboard header h4{
+        text-align: left;
+        margin: 4px 4px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .main_content .body .dashboard header h3{
+        font-size: 16px;
+        margin-left: 2px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .main_content .body .dashboard header .author h3{
+        text-align: left;
+    }
+
+    .main_content .body .dashboard header .author{
+        margin-top: 16px;
+        display: unset;
+    }
+
+    .control .control_container{
+        height: 70px;
+    }
+
+    .control .control_container .interact{
+        margin-top: 8px;
+    }
+}
