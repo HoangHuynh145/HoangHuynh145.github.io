@@ -1,0 +1,39 @@
+@import '../variables';
+
+.booking-form{
+    background-color: $bg-color;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(17, 17, 17, .3);
+    padding: 3rem 2rem;
+    margin-top: -2rem;
+    form{
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        .inputBox{
+            flex: 1 1 25rem;
+            span{
+                display: block;
+                font-size: 1.4rem;
+                color: $light-color;
+            }
+            input{
+                border: $border;
+                color: $light-color;
+                padding: 1.2rem 1.4rem;
+                background: transparent;
+                border-radius: 5rem;
+                width: 100%;
+                margin-top: 1rem;
+                font-size: 1.6rem;
+                text-transform: none;
+            }
+        }
+        .btn{
+            flex: 1 1 15rem;
+        }
+    }
+}

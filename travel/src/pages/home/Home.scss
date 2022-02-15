@@ -1,0 +1,37 @@
+@import '../variables';
+
+.home{
+    margin: 0 auto;
+    margin-top: 9rem;
+    height: 80vh;
+    width: 90%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    .content{
+        text-align: center;
+        span{
+            font-weight: bolder;
+            font-size: 4vw;
+            color: transparent;
+            -webkit-text-stroke: .1rem $white;
+            display: block;
+        }
+        h3{
+            font-size: 6vw;
+            color: $white;
+        }
+        p{
+            color: $light-color;
+            font-size: 1.4rem;
+            max-width: 60rem;
+            margin: 1rem auto;
+            line-height: 2;
+        }
+        .btn{
+            margin-top: 0;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import '../variables';
+
+.footer{
+    .box-container{
+        @include grid(25rem);
+        .box{
+            padding: 1rem 0;
+            .logo{
+                padding-top: 1rem;
+            }
+            h3{
+                color: $white;
+                font-size: 2.2rem;
+                padding: 1rem 0;
+            }
+            p{
+                font-size: 1.4rem;
+                color: $light-color;
+                line-height: 2;
+                padding: 1rem 0;
+                cursor: pointer;
+                &:hover{
+                    color: $blue;
+                    i{
+                        padding-right: 1rem;
+                    }
+                }
+                i{
+                    color: $blue;
+                    padding-right: .5rem;
+                }
+            }
+            .socials{
+                padding-top: 1rem;
+                a{
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    line-height: 4.3rem;
+                    font-size: 2.4rem;
+                    border-radius: 50%;
+                    color: $blue;
+                    background: transparent;
+                    text-align: center;
+                    border: $border;
+                    margin-right: .5rem;
+                    display: inline-block;
+                    &:hover{
+                        cursor: pointer;
+                        color: $black;
+                        background: $blue;
+                    }
+                }
+            }
+            .link{
+                display: block;
+                margin: 1.5rem 0;
+                color: $light-color;
+                font-size: 1.4rem;
+                &:hover{
+                    color: $blue;
+                    i{
+                        padding-right: 1.6rem;
+                    }
+                }
+                i{
+                    padding-right: .5rem;
+                }
+            }
+            span{
+                padding: 1rem 0;
+                line-height: 2;
+            }
+            form{
+                input[type="email"]{
+                    width: 100%;
+                    border: $border;
+                    text-transform: none;
+                    color: $light-color;
+                    background: transparent;
+                    border-radius: 5rem;
+                    padding: 1.2rem 1.3rem;
+                    margin: 1rem 0 1rem 0;
+                    font-size: 1.5rem;
+                }
+            }
+            .email{
+                text-transform: none;
+            }
+        }
+    }
+}
