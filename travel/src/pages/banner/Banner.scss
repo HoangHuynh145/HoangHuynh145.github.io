@@ -1,0 +1,22 @@
+@import '../variables';
+
+.banner{
+    padding: 3rem 2rem;
+    text-align: center;
+    span{
+        color: $blue;
+        font-size: 2rem;
+    }
+    h3{
+        color: $white;
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+    p{
+        color: $light-color;
+        font-size: 1.4rem;
+        line-height: 2;
+        max-width: 60rem;
+        margin: 1rem auto;
+    }
+}

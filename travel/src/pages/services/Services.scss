@@ -1,0 +1,33 @@
+@import '../variables';
+
+.services .box-container{
+    @include grid(32rem);
+    .box{
+        background: $bg-color;
+        border-radius: 1rem;
+        padding: 3rem;
+        text-align: center;
+        border: .2rem solid $black;
+        &:hover{
+            border: $border;
+            cursor: pointer;
+        }
+        i{
+            color: $blue;
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+        .content{
+            h3{
+                color: $white;
+                font-size: 2rem;
+            }
+            p{
+                color: $light-color;
+                font-size: 1.4rem;
+                line-height: 2;
+                padding: 1rem 0;
+            }
+        }
+    }
+}
